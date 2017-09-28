@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint components/**/*.js",
-    "serve": "./node_modules/.bin/static .",
+    "lint": "eslint components/**/*.js",
+    "serve": "static .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
